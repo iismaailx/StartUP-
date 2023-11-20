@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 6
+names: ['Gunting', 'Kapak', 'Linggis', 'Palu', 'Pisau', 'Pistol']
+
+roboflow:
+  workspace: guardian-eye
+  project: guardian-eye-xyexl
+  version: 1
+  license: Public Domain
+  url: https://universe.roboflow.com/guardian-eye/guardian-eye-xyexl/dataset/1
